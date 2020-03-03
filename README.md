@@ -48,7 +48,7 @@ To reproduce this issue an attacker needs to follow the following steps.
 This vulnerability needs to be fixed on the authentication level by Mojang Specifications, it cannot be resolved on a server locally.
 
 ### Mitigation
-There is no way to protect your account from this exploit directly. If you are a player, the best layer of defense is to hide all of your items and kill yourself to spawn while letting your friends know that anyone on your account could very well not be you. As a server administrator we recommend relying on an additional layer of defense (2 factor authentication) by [configuring WorldGuard host keys](https://worldguard.enginehub.org/en/latest/host-keys/) or byusing a 2FA plugin such as [MCAuthenticator](https://www.spigotmc.org/resources/mcauthenticator.18727).
+There is no way to protect your account from this exploit directly. If you are a player, the best layer of defense is to hide all of your items and kill yourself to spawn while letting your friends know that anyone on your account could very well not be you. As a server administrator we recommend relying on an additional layer of defense (2 factor authentication) by [configuring WorldGuard host keys](https://worldguard.enginehub.org/en/latest/host-keys/) or by using a 2FA plugin such as [MCAuthenticator](https://www.spigotmc.org/resources/mcauthenticator.18727).
 
 ### Closing thoughts
 
