@@ -56,4 +56,4 @@ If this all sounds familar, it is because it's the exact same exploit that occur
 
 To facilitate the use of this exploit, we modified the popular Forge modification ReAuth to implement the legacy server join API and changed the user interface to only show a username field and to show which IP address we were connecting from. It looked pretty cool being able to log into any account just by typing a username into the text box without providing a password :)
 
-Unfortunately, we mistakenly assumed ReAuth was licensed under a permissive license but it turns out it is "All Rights Reserved" so we can not publish the source code to our fork as much as we'd like to without being in violation of the author's license terms. We have contected the author asking for an exception and will provide the source code if they agree.
+Unfortunately, we mistakenly assumed ReAuth was licensed under a permissive license but it turns out it is "All Rights Reserved" so we can not publish the source code to our fork as much as we'd like to without being in violation of the author's license terms.
