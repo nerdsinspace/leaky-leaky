@@ -54,6 +54,8 @@ There is no way to protect your account from this exploit directly. If you are a
 
 If this all sounds familar, it is because it's the exact same exploit that occured back in July 2012 except this time it affects all Minecraft accounts regardless of migration status.
 
+We caught wind of this bug when someone else was using it against one of the Minecraft servers we run and decided to find out how it worked for ourselves. The server runs on an old version of Minecraft that still uses the legacy authentication API. A player discovered that he could use an "offline mode account switcher" in an old hacked minecraft client to change his username and successfully join the server with that username. That being said, we cannot confirm for how long this bug was present on Mojang's legacy authentication API. It may have existed for months... who knows?
+
 To facilitate the use of this exploit, we modified the popular Forge modification ReAuth to implement the legacy server join API and changed the user interface to only show a username field and to show which IP address we were connecting from. It looked pretty cool being able to log into any account just by typing a username into the text box without providing a password :)
 
 Unfortunately, we mistakenly assumed ReAuth was licensed under a permissive license but it turns out it is "All Rights Reserved" so we can not publish the source code to our fork as much as we'd like to without being in violation of the author's license terms.
