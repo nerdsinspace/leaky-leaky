@@ -42,7 +42,7 @@ This vulnerability seems to be caused by a failure to validate an account's owne
 To reproduce this issue an attacker needs to follow the following steps.
 
    1. Log in to Minecraft with any account.
-   2. Instead of using Mojang's modern join server authentication api, use the legacy authentication api. Replace the username sent to the api with the any valid username.
+   2. Instead of using Mojang's modern join server authentication api, use the legacy authentication api. Replace the username sent to the api with any valid username.
 
 ### Resolution
 This vulnerability needs to be fixed on the authentication level by Mojang Specifications, it cannot be resolved on a server locally.
